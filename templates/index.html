@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IPK Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>IPK Calculator untuk Mahasiswa UI</h1>
+    <div id="creator">Created by: Muhamad Haikal</div>
+    <div>
+        <strong>Catatan:</strong> Pilih nilai Anda dari dropdown.
+    </div>
+    <form id="calculator-form">
+        <div id="semester-container"></div>
+        <button type="button" id="add-semester-btn">Tambah Semester</button>
+        <button type="submit">Hitung IPK</button>
+    </form>
+    <div id="result"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

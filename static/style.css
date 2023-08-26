@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333366;
+}
+
+input[type=text], input[type=number], select {
+    margin: 5px;
+}
+
+button {
+    margin: 10px;
+}
+
+#creator {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
